@@ -6,7 +6,7 @@
              <script src="jquery.min.js"></script>
             <script src="responsiveslides.min.js"></script>
 			<script>
-				$(function () {
+				$(function () { 
 				  $("#slider1").responsiveSlides({
 					auto: true,
 					pager: true,
