@@ -1,0 +1,233 @@
+﻿html{
+	background-color: #111010;
+	
+	
+}
+body{
+	background-repeat: inherit;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation ul li {
+	display: inline;
+	text-decoration: none;
+	text-align: center;
+	padding-right: 50px;
+	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+	font-size: 17px;
+}
+#navigation ul li a:hover {
+	color: white;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	color: #E5E5E5;
+}	
+
+#header {
+	background: url(images/23.jpg) no-repeat center center fixed;
+	background-size: cover;
+	width: auto;
+	height: 220px;
+}
+
+#content {
+	border: 1px solid #000000;
+	margin-top: px;
+	background-color: black;
+	margin: auto;
+	width: 1000px;
+	text-align: center;
+}
+
+#c {
+	border: 1px solid white;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #008000;
+	color: white;
+}
+#center1 {
+	border: 1px solid white;
+	width: 1000px;
+	height: 310px;
+	background-color: white;
+	margin-top: 10px;
+}
+#navigation1 {
+	background-color: #565656;
+	width: auto;
+	height: 50px;
+	margin-top: -0.1px;
+	border: 1px solid black;	
+}
+#navigation {
+	background-color: #565656;
+	font-family: Zapf Chancery, cursive;
+	width: 1000px;
+	height: 50px;
+	margin-top: -0.1px;
+	overflow: hidden;	
+}
+.banner {
+	background-color: black;
+	height: 315px;
+}
+.box{
+	background-color: white;
+	height: 560px;
+	width: 1000px;
+	border: 2px solid white;
+	margin-top: -15px;	
+	margin: auto;
+}
+.box table {
+	width:1000px;
+	border-spacing:10px;
+    border: none;
+    border-color: white;
+	
+}
+.box1{
+	background-color: white;
+	height: auto;
+	width: 1050px;
+	border: 2px solid white;
+    width:100%; 
+    padding: 3%;
+}
+.box1 a{
+	text-decoration: none;
+	color: black;
+	
+}
+.box1 a:hover {
+	display: block;
+	background-color: #111010;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+.box2{
+	background-color: white;
+	height: auto;
+	width: 1000px;
+	border: 2px solid white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin: auto;
+}
+
+.box3{
+	background-color: white;
+	height: auto;
+	width: 1000px;
+	border: 2px solid white;
+	margin-top: 1px;
+	margin-bottom: 15px;
+}
+.box3 img {
+	
+	padding: 3px;
+	border: 3px solid #111010;
+	border-radius: 5px;
+}
+.box4{
+	background-color: white;
+	height: auto;
+	width: 1000px;
+	border: 2px solid white;
+	margin-top: -15px;		
+}
+.bottomnavigator {
+	background-color: #e6e6fa;
+	width: 1002px;
+	height: 200px;
+	margin-top: -0.1px;
+	margin: auto;
+}
+
+.footer {
+	background: url(images/23.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: auto;
+	height: 70px;
+	margin-top: -1px;
+}
+.footer1 table, td, th {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid red;
+}
+
+.container {
+  position: relative;
+  width: 0;
+}
+
+.img {
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #111010;
+  overflow: hidden;
+  width: 250px;
+  height: 40px;
+  transition: .5s ease;
+  border-radius: 5px;
+}
+
+.container:hover .overlay {
+  height: 100%;
+  opacity: 0.9;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text a {
+	color: #111010;
+	background-color: #E5E5E5;
+	display: block;
+	border-radius: 3px;
+	padding: 3px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.text a:hover {
+	color: grey;
+	background-color: #111010;
+}
+
+.cart {
+	padding: 100px;
+}
+
+.success {
+	background: #fff8C4;
+	border: 1px solid #F2C779;
+}
