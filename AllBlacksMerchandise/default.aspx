@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
             <link href="responsiveslides.css" type="text/css" rel="stylesheet" />
              <script src="jquery.min.js"></script>
-            <script src="responsiveslides.min.js"></script>
+            <script src="responsiveslides.min.js"></script> 
 			<script>
 				$(function () { 
 				  $("#slider1").responsiveSlides({
