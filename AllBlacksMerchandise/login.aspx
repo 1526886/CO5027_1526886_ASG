@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="box2">
 		
-		<table width="1000" cellspacing="10">
+		<table>
 		<form action="/action_page.php">
 			<tr>
 				<td>User Name:</td>
@@ -15,7 +15,7 @@
 				<td><input type="Password" value="" placeholder="Your Father's Name"></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><input type="Submit" value="Submit"></td>
+				<td colspan="2"><input type="Submit" value="Submit"></td>
 			</tr>
 		</table>
 	</div>

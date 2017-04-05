@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="StyleSheet1.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -32,37 +32,33 @@
         
         </asp:ContentPlaceHolder>
     <div class="bottomnavigator">
-		<br/>
-		<table style="width: 1000px;">
+		<table>
 			<tr>
-				<td style="font-size: 18px;"><strong> PRODUCTS <br/> <img src="images/lineBreak.png" alt="image" style="  width: 225px; margin-top: -12px;"/></strong></td>
-				<td style="font-size: 18px;"><strong> SHOPPING <br/> <img src="images/linebreak.png" alt="image"  style=" width: 225px; margin-top: -12px;"/></strong></td>
-				<td style="font-size: 18px;"><strong> PAYMENT METHODS <br/> <img src="images/linebreak.png" alt="image"  style="  width: 225px; margin-top: -12px;"/></strong></td>
-				<td style="font-size: 18px;"><strong> SOCIAL MEDIAS <br/> <img src="images/linebreak.png"  alt="image" style="  width: 225px; margin-top: -12px;"/></strong></td>
+				<th> PRODUCTS</th>
+				<th>SHOPPING</th>
+				<th>PAYMENT METHODS</th>
+				<th>SOCIAL MEDIAS</th>
 			</tr>
 			<tr>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Jerseys Category</td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Customer Service</td>
-				<td><img src="images/mc.png" alt="image"  style="height:30px; border-radius: 15px ; margin-top: -20px;"/> &amp; <img src="images/visa.png" alt="image"  style="height:25px; border-radius: 15px;margin-top: -20px;"/> &amp; <img src="images/pp.png" alt="image"  style="height:20px; border-radius: 15px;margin-top: -20px;"/> </td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > <strong> FB: </strong> All Black Merchandise </td>
+				<td > Jerseys Category</td>
+				<td> Customer Service</td>
+				<td><img src="images/mc.png" alt="image"  height="30"> <img src="images/visa.png" alt="image"  height="25"> <img src="images/pp.png" alt="image" height="30"> </td>
+				<td>FB: All Black Merchandise </td>
 			</tr>
 			<tr>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Men Category</td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Size Charts</td>
+				<td> Men Category</td>
+				<td> Size Charts</td>
 				<td></td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > <strong> Web: </strong> http://www.allblacksmerchandise.com.bn </td>
+				<td> <strong> Web: </strong> http://www.allblacksmerchandise.com.bn </td>
 			</tr>
 			<tr>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Women Category</td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" >Payments we accept  </td>
+				<td> Women Category</td>
+				<td>Payments we accept  </td>
 				<td> </td>
-				<td style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > <strong> Email: </strong> allblackmerchandise@gmail.com </td>
+				<td> <strong> Email: </strong> allblackmerchandise@gmail.com </td>
 			</tr>
 			<tr>
-				<td colspan="4" style="font-size: 13px; text-align: justify; color: #2f4f4f; padding: 0px; font-family: Zapf Chancery, cursive;" > Kids Category </td>
-			</tr>
-			<tr>
-				<td colspan="4"> <p  style="text-align: center; font-size: 10px; color: black;">Copyright 2017. All Blacks Merchandise </p></td>
+				<td colspan="4"> Kids Category </td>
 			</tr>
 		</table>
 	</div>

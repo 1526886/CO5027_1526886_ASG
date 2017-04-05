@@ -2,53 +2,69 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table style="width: 1000px; margin: auto;">
+    <div class="out">
+	<table>
 			<tr>
-				<th style="text-align: left;"><h1> style="color: white; font-size: 30px;">CONTACT</h1></th>
+				<th>CONTACT</th>
 			</tr>
 			<tr>
-				<td><b><h3 style="color: white; font-size: 18px;">If you have any enquiries, please feel free to contact us directly.</h3></b></td>
+				<td><b>If you have any enquiries, please feel free to contact us directly.</b></td>
 			</tr>
 			<tr>
-				<td><h3 style="color: white; font-size: 18px;">We will reply as soon as possible. We are looking forward to hearing from you!</h3></td>
+				<td>We will reply as soon as possible. We are looking forward to hearing from you!</td>
 			</tr>
 			<tr>
+				<th>CUSTOMER SERVICE</th>
 			</tr>
 			<tr>
-				<th align="left"><font style="color: white; font-size: 30px;">CUSTOMER SERVICE</font></th>
+				<td>Time: Monday-Friday 11am-7pm (Brunei Time)</td>
 			</tr>
 			<tr>
-				<td><font style="color: white; font-size: 18px;">Time: Monday-Friday 11am-7pm (Brunei Time)</font></td>
+				<td>Phone Number: +673 888555</td>
 			</tr>
 			<tr>
-				<td><font style="color: white; font-size: 18px;">Phone Number: +673 888555</font></td>
-			</tr>
-			<tr>
-				<td><font style="color: white; font-size: 18px;">Email:</font> <font style="font-size: 18px; color:lightblue; text-decoration:underline;">allblackmerchandise@gmail.com</font></td>
+				<td>Email: allblackmerchandise@gmail.com</td>
 			</tr>
 		</table>
+</div>
 	<div class="box2">
-		
 		<table>
 		<form action="/action_page.php">
 			<tr>
-				<td>First name:</td>
-				<td><input type="text" name="FirstName" value="" placeholder="Your First Name"></td>
+				<td>
+                    <asp:Label ID="FirstName" runat="server" Text="First Name"></asp:Label>
+                    </td>
+				<td>
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    </td>
 			</tr>
 			<tr>
-				<td>Last Name:</td>
-				<td><input type="LastName" value="" placeholder="Your Father's Name"></td>
+				<td>
+                    <asp:Label ID="LastName" runat="server" Text="Last Name"></asp:Label>
+                    </td>
+				<td>
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </td>
 			</tr>
 			<tr>
-				<td>Phone Number:</td> 
-				<td><input type="text" name="PhoneNumber" value="" placeholder="Your Phone Number"></td>
+				<td>
+                    <asp:Label ID="PhoneNumber" runat="server" Text="Phone Number"></asp:Label>
+                    </td> 
+				<td>
+                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    </td>
 			</tr>
 			<tr>
-				<td>Detail:</td> 
-				<td><textarea rows="4" cols="50" name="detail" placeholder=""> </textarea></td>
+				<td>
+                    <asp:Label ID="Detail" runat="server" Text="Detail"></asp:Label>
+                    </td> 
+				<td>
+                    <textarea id="TextArea1" cols="20" name="S1" rows="2"></textarea></td>
 			</tr>
 			<tr>
-				<td colspan="2" align="center"><input type="Submit" value="Submit"></td>
+				<td colspan="2" align="center">
+                    <asp:Button ID="Submit" runat="server" Text="Submit" />
+                </td>
 			</tr>
 		</table>
 	</div>
