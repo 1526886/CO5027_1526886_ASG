@@ -5,12 +5,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
   <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
+    <link href="StyleSheetlightbox.css" rel="stylesheet" />
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    
 
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <script src="lightbox.js"></script>
+
     <form id="form1" runat="server">
     <div id="content"/>
 	<div id="header">
@@ -25,6 +31,7 @@
 				<li><a href="contactus.aspx">Contact Us</a></li>
 				<li><a href="aboutus.aspx">About Us</a></li>
 				<li><a href="login.aspx">log In</a></li>
+                <li><a href="register.aspx">Register</a></li>
 			</ul>
 		</div>
 	</div>
@@ -42,7 +49,7 @@
 			<tr>
 				<td > Jerseys Category</td>
 				<td> Customer Service</td>
-				<td><img src="images/mc.png" alt="image"  height="30"> <img src="images/visa.png" alt="image"  height="25"> <img src="images/pp.png" alt="image" height="30"> </td>
+				<td><img src="images/mc.png" alt="image"  height="30"/> <img src="images/visa.png" alt="image"  height="25"/> <img src="images/pp.png" alt="image" height="30"/> </td>
 				<td>FB: All Black Merchandise </td>
 			</tr>
 			<tr>
@@ -55,7 +62,7 @@
 				<td> Women Category</td>
 				<td>Payments we accept  </td>
 				<td> </td>
-				<td> <strong> Email: </strong> allblackmerchandise@gmail.com </td>
+				<td> <strong> Email: </strong> zaarul.28az@gmail.com </td>
 			</tr>
 			<tr>
 				<td colspan="4"> Kids Category </td>
@@ -63,5 +70,6 @@
 		</table>
 	</div>
     </form>
+
 </body>
 </html>

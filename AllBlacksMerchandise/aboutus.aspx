@@ -5,11 +5,11 @@
     <div class="box2">
 		<table>
 			<tr>
-				<th colspan="2">About Us</th>
+				<th colspan="2"><h1>About Us</h1></th>
 			</tr>
 			<tr>
 				<th>Introduction: </th>
-				<td rowspan="4"> <img src="images/logo2.jpg" height="400" width="400"></td>
+				<td rowspan="4"> <img src="images/logo2.jpg" height="400" width="400"/></td>
 			</tr>
 			<tr>
 				<td>The All Blacks Merchandise was incorporated in the Year of 2013 with the sole purpose of selling good quality sportwear to the general Bruneian with an affordable price. It manages to capture the Bruneian heart through its quality fabric that were used on the clothes. </td>
