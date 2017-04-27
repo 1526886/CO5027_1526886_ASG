@@ -5,9 +5,9 @@
        <!-- REFERENCE LIST
            Retrieve From: http://www.allblackshop.com/
         -->
-            <link href="responsiveslides.css" type="text/css" rel="stylesheet" />
-             <script src="jquery.min.js"></script>
-            <script src="responsiveslides.min.js"></script> 
+             <link href="CSS/responsiveslides.css" rel="stylesheet" />
+             <script src="Scripts/jquery.min.js"></script>
+             <script src="Scripts/responsiveslides.min.js"></script>
 			<script>
 				$(function () { 
 				  $("#slider1").responsiveSlides({
@@ -59,7 +59,8 @@
 			</tr>
 			
 			<td>The All Blacks Merchandise was incorporated in the Year of 2013 with the sole purpose of selling good quality sportwear to the general Bruneian with an affordable price. It manages to capture the Bruneian heart through its quality fabric that were used on the clothes.</td>
-			<td>
+			
+            <td>
 				<table>
 					<tr>
 						<td><img src="images/11.jpg" alt="image" height="50" width="50"/></td>

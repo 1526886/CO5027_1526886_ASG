@@ -8,16 +8,17 @@
     <div class="out">
 	<table>
 			<tr>
-				<th>CONTACT</th>
+				<th>CONTACT:</th>
 			</tr>
 			<tr>
 				<td><b>If you have any enquiries, please feel free to contact us directly.</b></td>
 			</tr>
 			<tr>
 				<td>We will reply as soon as possible. We are looking forward to hearing from you!</td>
-			</tr>
+            </tr>
+          
 			<tr>
-				<th>CUSTOMER SERVICE</th>
+				<th>CUSTOMER SERVICE:</th>
 			</tr>
 			<tr>
 				<td>Time: Monday-Friday 11am-7pm (Brunei Time)</td>
@@ -26,8 +27,13 @@
 				<td>Phone Number: +673 888555</td>
 			</tr>
 			<tr>
-				<td>Email: zaarul.28az@gmail.com</td>
+				<td>Email: dangkasum123@gmail.com</td>
 			</tr>
+
+               <th> OUR LOCATION:</th>
+          <tr>
+                <td>We are Located at Plaza Abdul Razak, Third Floor, 2B,J Laksamana Abdul Razak, Bandar Seri Begawan BA1712,Brunei.</td>
+            </tr>
 		</table>
 </div>
 	<p><asp:Label ID="lblName" runat="server" Text="Name:" AssociatedControlID="txtName" ForeColor="black"></asp:Label></p>
@@ -52,5 +58,5 @@
    
   <div id="map"></div> 
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJ9u3cVf8U_rgkcY9ajTPEfz1s1tDy5KE&callback=initMap"></script>
-     <script src="map.js"></script>
+    <script src="Scripts/map.js"></script>
 </asp:Content>

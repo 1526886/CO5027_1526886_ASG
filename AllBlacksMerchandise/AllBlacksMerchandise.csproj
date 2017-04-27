@@ -118,8 +118,8 @@
     <Content Include="gallery.aspx" />
     <Content Include="gifts.aspx" />
     <Content Include="kids.aspx" />
-    <Content Include="lightbox.js" />
-    <Content Include="map.js" />
+    <Content Include="Scripts\lightbox.js" />
+    <Content Include="Scripts\map.js" />
     <Content Include="mens.aspx" />
     <Content Include="packages.config" />
     <Content Include="privatePage.aspx" />
@@ -221,13 +221,13 @@
     <Content Include="images\women3.png" />
     <Content Include="images\women4.png" />
     <Content Include="images\women5.png" />
-    <Content Include="jquery.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="product.aspx" />
-    <Content Include="responsiveslides.min.js" />
-    <Content Include="StyleSheet1.css" />
-    <Content Include="responsiveslides.css" />
-    <Content Include="StyleSheet2.css" />
-    <Content Include="StyleSheetlightbox.css" />
+    <Content Include="Scripts\responsiveslides.min.js" />
+    <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="CSS\responsiveslides.css" />
+    <Content Include="CSS\StyleSheet2.css" />
+    <Content Include="CSS\StyleSheetlightbox.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

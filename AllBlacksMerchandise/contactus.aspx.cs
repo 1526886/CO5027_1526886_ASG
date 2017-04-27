@@ -22,14 +22,14 @@ namespace AllBlacksMerchandise
             smtpClient.UseDefaultCredentials = false;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("zaarul.28az@gmail.com", "28Nov8627");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("dangkasum123@gmail.com", "dangkasum12345");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("zaarul.28az@gmail.com", txtEmail.Text);
-            msg.Subject = "Name: " + txtName.Text + "Subject: " + txtSubject.Text;
+            MailMessage msg = new MailMessage("dangkasum123@gmail.com", "dangkasum123@gmail.com");
+            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text;
             msg.Body = txtMessage.Text;
-            smtpClient.Send(msg);
+         
 
             try
             {
