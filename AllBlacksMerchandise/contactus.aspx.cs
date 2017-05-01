@@ -27,7 +27,7 @@ namespace AllBlacksMerchandise
             smtpClient.Credentials = credentials;
 
             MailMessage msg = new MailMessage("dangkasum123@gmail.com", "dangkasum123@gmail.com");
-            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text;
+            msg.Subject = "Name: " + txtName.Text + " Subject: " + txtSubject.Text + " Email: " + txtEmail.Text;
             msg.Body = txtMessage.Text;
          
 
@@ -43,6 +43,11 @@ namespace AllBlacksMerchandise
         }
 
         protected void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtEmail_TextChanged(object sender, EventArgs e)
         {
 
         }

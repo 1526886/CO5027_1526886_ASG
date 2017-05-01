@@ -10,7 +10,7 @@
     <script src="Scripts/jquery-3.1.1.js"></script>
     
 
-    <title></title>
+    <title>All Blacks Merchandise</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -18,10 +18,10 @@
     <script src="Scripts/lightbox.js"></script>
 
     <form id="form1" runat="server">
-    <div id="content"/>
+    <div id="content">
 	<div id="header">
 		<br/>
-		<img src="images/allblack.png" alt= "image" style="height:400px; margin-top: -50px;"/>
+		<img src="images/allblack.png" alt= "image" style= "height:400px; margin-top: -50px;"/>
 	</div>
 	<div id="navigation1">
 		<div id="navigation">
@@ -35,42 +35,13 @@
 			</ul>
 		</div>
 	</div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+
+
         </asp:ContentPlaceHolder>
-    <div class="bottomnavigator">
-		<table>
-			<tr>
-				<th> PRODUCTS</th>
-				<th>SHOPPING</th>
-				<th>PAYMENT METHODS</th>
-				<th>SOCIAL MEDIAS</th>
-			</tr>
-			<tr>
-				<td > Jerseys Category</td>
-				<td> Customer Service</td>
-				<td><img src="images/mc.png" alt="image"  height="30"/> <img src="images/visa.png" alt="image"  height="25"/> <img src="images/pp.png" alt="image" height="30"/> </td>
-				<td>FB: All Black Merchandise </td>
-			</tr>
-			<tr>
-				<td> Men Category</td>
-				<td> Size Charts</td>
-				<td></td>
-				<td> <strong> Web: </strong> http://1526886.studentwebserver.co.uk </td>
-			</tr>
-			<tr>
-				<td> Women Category</td>
-				<td>Payments we accept  </td>
-				<td> </td>
-				<td> <strong> Email: </strong> dangkasum123@gmail.com </td>
-			</tr>
-			<tr>
-				<td colspan="4"> Kids Category </td>
-			</tr>
-            <tr>
-                <td colspan="4"><p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"src="http://jigsaw.w3.org/css-validator/images/vcss"alt="Valid CSS!" /></a></p></td>
-            </tr>
-         </table>
+         
 	</div>
     </form>
 
